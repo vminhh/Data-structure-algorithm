@@ -2,7 +2,7 @@ package tut2;
 
 import java.util.*;
 
-public class BinarySearch {
+public class ImproveSimpleSearch {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class BinarySearch {
         int m = inp.nextInt();
         int position = binarySearch(a, n, m);
 
-        System.out.println(position !=-1 ?"Element found at index " + position :"Element not found" );
+        System.out.println(position !=-1 ?"Element found at index " + position :"Element not found");
         inp.close();
     }
     
