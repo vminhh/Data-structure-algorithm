@@ -11,31 +11,27 @@ public class SortAlgorCompare {
             a[i] = rand.nextInt(Integer.MAX_VALUE);
         }
 
-        long start, end, elapse;
+        long start, end;
 
         start = System.currentTimeMillis();
         sel(a);
         end = System.currentTimeMillis();
-        elapse = end - start;
-        System.out.println("Seclention RunTime: " + elapse);
+        System.out.println("Seclention RunTime: " + (end - start));
 
         start = System.currentTimeMillis();
         ins(a);
         end = System.currentTimeMillis();
-        elapse = end - start;
-        System.out.println("Insertion RunTime: " + elapse);
+        System.out.println("Insertion RunTime: " + (end - start));
 
         start = System.currentTimeMillis();
         bub(a);
         end = System.currentTimeMillis();
-        elapse = end - start;
-        System.out.println("Bubble RunTime: " + elapse);
+        System.out.println("Bubble RunTime: " + (end - start));
 
         start = System.currentTimeMillis();
         merSort(a, 0, a.length - 1);
         end = System.currentTimeMillis();
-        elapse = end - start;
-        System.out.println("Merge RunTime: " + elapse);
+        System.out.println("Merge RunTime: " + (end - start));
 
     }
 
