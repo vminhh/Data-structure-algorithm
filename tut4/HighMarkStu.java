@@ -2,7 +2,7 @@ package tut4;
 
 import java.util.*;
 
-public class HighMarksStu {
+public class HighMarkStu {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
