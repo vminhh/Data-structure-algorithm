@@ -11,23 +11,23 @@ public class Ex02 {
         System.out.print("Enter the range of array: ");
         int n = inp.nextInt();
         inp.close();
-        
-        if (n<=0){
+
+        if (n <= 0) {
             System.out.println("Error...");
-            return ;
+            return;
         }
 
         System.out.println("Random Arr: " + Arrays.toString(CreatArr(n)));
     }
 
-    static int [] CreatArr (int n){
-        int [] arr = new int[n];
+    static int[] CreatArr(int n) {
+        int[] arr = new int[n];
         Random random = new Random();
 
-        for (int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = random.nextInt();
         }
-        
+
         return arr;
     }
 }

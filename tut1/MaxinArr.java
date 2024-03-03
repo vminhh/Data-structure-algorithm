@@ -3,7 +3,7 @@ package tut1;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class MaxinArr{
+public class MaxinArr {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
@@ -12,13 +12,13 @@ public class MaxinArr{
 
         int[] arr = new int[N];
         System.out.print("Enter the list: ");
-        for (int i=0; i<N; i++){
+        for (int i = 0; i < N; i++) {
             arr[i] = inp.nextInt();
         }
-        
+
         inp.close();
 
         Arrays.sort(arr);
-        System.out.print("Max: " + arr[N-1]);
+        System.out.print("Max: " + arr[N - 1]);
     }
 }
