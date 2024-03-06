@@ -20,6 +20,7 @@ public class Cou_sort {
     }
 
     // for all integer number
+    @SuppressWarnings("unused")
     private static void countingSort(int[] a) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
