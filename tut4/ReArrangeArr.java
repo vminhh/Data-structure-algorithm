@@ -18,7 +18,7 @@ public class ReArrangeArr {
         inp.close();
     }
 
-    static int[] bub(int[] a) {
+    private static int[] bub(int[] a) {
         int n = a.length;
         boolean swapped;
 
@@ -34,6 +34,7 @@ public class ReArrangeArr {
             }
             n--;
         } while (swapped);
+        
         return a;
     }
 }

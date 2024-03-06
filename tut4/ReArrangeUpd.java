@@ -18,7 +18,7 @@ public class ReArrangeUpd {
         inp.close();
     }
 
-    static int[] counting_sort(int[] a) {
+    private static int[] counting_sort(int[] a) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for (int i : a) {

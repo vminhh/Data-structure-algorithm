@@ -32,7 +32,7 @@ public class HighMarkStu {
         inp.close();
     }
 
-    static class Student implements Comparable<Student> {
+    private static class Student implements Comparable<Student> {
         private String name;
         private int mark;
 
@@ -42,11 +42,12 @@ public class HighMarkStu {
         }
 
         public String getName() {
-            return this.name;
+            return name;
         }
 
+        @SuppressWarnings("unused")
         public int getMark() {
-            return this.mark;
+            return mark;
         }
 
         public int compareTo(Student other) {

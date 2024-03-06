@@ -56,7 +56,7 @@ public class Mer_sort {
         }
     }
 
-    static void merSort(int[] a, int l, int r) {
+    private static void merSort(int[] a, int l, int r) {
         if (l < r) {
             int m = (l + r) / 2;
             merSort(a, l, m);
