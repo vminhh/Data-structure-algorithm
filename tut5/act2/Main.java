@@ -16,7 +16,7 @@ public class Main {
         }
 
         Arrays.sort(list);
-        System.out.println("Succeeded\n" + Arrays.toString(list));
+        System.out.println("Succeeded!\n" + Arrays.toString(list));
 
         inp.close();
     }

@@ -13,6 +13,7 @@ public class Hea_sort {
         for (int i = 0; i < n; i++) {
             arr[i] = inp.nextInt();
         }
+        
         heapSort(arr, arr.length);
         System.out.println("Result: " + Arrays.toString(arr));
         inp.close();

@@ -1,8 +1,6 @@
 package tut5;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Compare {
     public static void main(String[] args) {
