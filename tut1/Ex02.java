@@ -1,8 +1,6 @@
 package tut1;
 
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 
 public class Ex02 {
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class Ex02 {
         System.out.println("Random Arr: " + Arrays.toString(CreatArr(n)));
     }
 
-    static int[] CreatArr(int n) {
+    private static int[] CreatArr(int n) {
         int[] arr = new int[n];
         Random random = new Random();
 

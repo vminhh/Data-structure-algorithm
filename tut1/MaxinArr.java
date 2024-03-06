@@ -1,7 +1,6 @@
 package tut1;
 
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 
 public class MaxinArr {
     public static void main(String[] args) {

@@ -17,11 +17,11 @@ public class Ex01 {
 
     }
 
-    static double Round(double d) {
+    private static double Round(double d) {
         return Math.round(d * 1000.0) / 1000.0;
     }
 
-    static boolean Comparision(double a, double b) {
+    private static boolean Comparision(double a, double b) {
         return Round(a) == Round(b);
     }
 }

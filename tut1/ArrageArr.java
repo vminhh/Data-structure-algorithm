@@ -1,7 +1,6 @@
 package tut1;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrageArr {
     public static void main(String[] args) {
@@ -16,10 +15,9 @@ public class ArrageArr {
 
         inp.close();
         System.out.println(Arrays.toString(arrange(arr)));
-
     }
 
-    static int[] arrange(int[] arr) {
+    private static int[] arrange(int[] arr) {
         boolean swapped;
         int n = arr.length;
 
