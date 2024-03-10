@@ -21,7 +21,7 @@ public class ArrayStack {
         if (!isFull())
             stack[++top] = newItem;
         else
-            throw new ArrayIndexOutOfBoundsException("Stack overflow!");
+            throw new IndexOutOfBoundsException("Stack overflow!");
     }
 
     public String pop() {
