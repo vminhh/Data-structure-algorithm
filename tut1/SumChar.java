@@ -1,6 +1,6 @@
 package tut1;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class SumChar {
     public static void main(String[] args) {
@@ -13,14 +13,14 @@ public class SumChar {
         inp.close();
     }
 
-    static int sumChar (String inp){
+    private static int sumChar(String inp) {
         if (inp == null || inp.isEmpty())
             return 0;
 
         int sum = 0;
-        for (char c : inp.toCharArray()){
+        for (char c : inp.toCharArray()) {
             if (!Character.isWhitespace(c))
-                sum ++;
+                sum++;
         }
         return sum;
     }

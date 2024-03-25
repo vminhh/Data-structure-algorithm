@@ -1,6 +1,6 @@
 package tut1;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class NameSearch {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class NameSearch {
         inp.close();
     }
 
-    static int findPosition(String[] names, String searchName) {
+    private static int findPosition(String[] names, String searchName) {
         for (int i = 0; i < names.length; i++) {
             if (names[i].equalsIgnoreCase(searchName)) {
                 return i + 1;
@@ -33,4 +33,3 @@ public class NameSearch {
         return -1;
     }
 }
-

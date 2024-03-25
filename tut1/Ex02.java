@@ -1,8 +1,6 @@
 package tut1;
 
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 
 public class Ex02 {
     public static void main(String[] args) {
@@ -11,23 +9,23 @@ public class Ex02 {
         System.out.print("Enter the range of array: ");
         int n = inp.nextInt();
         inp.close();
-        
-        if (n<=0){
+
+        if (n <= 0) {
             System.out.println("Error...");
-            return ;
+            return;
         }
 
         System.out.println("Random Arr: " + Arrays.toString(CreatArr(n)));
     }
 
-    static int [] CreatArr (int n){
-        int [] arr = new int[n];
+    private static int[] CreatArr(int n) {
+        int[] arr = new int[n];
         Random random = new Random();
 
-        for (int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = random.nextInt();
         }
-        
+
         return arr;
     }
 }

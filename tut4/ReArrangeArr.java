@@ -2,7 +2,7 @@ package tut4;
 
 import java.util.*;
 
-public class Bub_sort {
+public class ReArrangeArr {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
@@ -34,7 +34,7 @@ public class Bub_sort {
             }
             n--;
         } while (swapped);
-
+        
         return a;
     }
 }

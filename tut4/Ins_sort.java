@@ -18,7 +18,7 @@ public class Ins_sort {
         inp.close();
     }
 
-    static int[] ins(int[] a) {
+    private static int[] ins(int[] a) {
         int n = a.length;
 
         for (int i = 1; i < n; i++) {
@@ -31,6 +31,7 @@ public class Ins_sort {
             }
 
         }
+        
         return a;
     }
 }
