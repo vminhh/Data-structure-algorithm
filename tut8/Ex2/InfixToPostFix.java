@@ -2,7 +2,7 @@ package tut8.Ex2;
 
 import java.util.*;
 
-public class InfixToPostFix {
+public class InfixToPostfix {
     public static void main(String[] args) {
         String test = "(a+b)*(c^d/e)-(f*g^h)";
         System.out.println("Infix: " + test);
@@ -72,4 +72,5 @@ public class InfixToPostFix {
     }
 
     // chac vay la xong roi nhi
+    // 7.10PM 26/3/2024 by Minh
 }
