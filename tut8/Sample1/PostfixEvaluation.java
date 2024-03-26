@@ -3,7 +3,7 @@ package tut8.Sample1;
 public class PostfixEvaluation {
     public static void main(String[] args) {
         String test = "25-32*4/+"; // (2-5) + (3*2/4)
-        System.out.println("Postfix valuate " + test + " is "+ evaluatePostfix(test));
+        System.out.println("Postfix valuate " + test + " is " + evaluatePostfix(test));
     }
 
     public static int evaluatePostfix(String expr) {
